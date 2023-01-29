@@ -36,7 +36,7 @@ namespace AppAdo07.View
                 if (id != 0)
                 {
                     this.Hide();
-                    frmRegistraVentas f = new frmRegistraVentas(id);
+                    Formulario f = new Formulario(id);
                     f.ShowDialog();
                     this.Dispose();
                 }
